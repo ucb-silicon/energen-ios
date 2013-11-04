@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01875331827AE6400F1B9CF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01875321827AE6400F1B9CF /* CoreFoundation.framework */; };
 		F0EE652D1827305D007D3053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EE652C1827305D007D3053 /* UIKit.framework */; };
 		F0EE652F1827305D007D3053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EE652E1827305D007D3053 /* Foundation.framework */; };
 		F0EE65311827305D007D3053 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EE65301827305D007D3053 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 		F0EE65531827305D007D3053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EE652E1827305D007D3053 /* Foundation.framework */; };
 		F0EE655B1827305D007D3053 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0EE65591827305D007D3053 /* InfoPlist.strings */; };
 		F0EE655E1827305D007D3053 /* EnergenXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE655D1827305D007D3053 /* EnergenXTests.m */; };
+		F0EE65691827356C007D3053 /* logo-text.png in Resources */ = {isa = PBXBuildFile; fileRef = F0EE65681827356C007D3053 /* logo-text.png */; };
+		F0EE656B1827375B007D3053 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EE656A1827375B007D3053 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F01875321827AE6400F1B9CF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F0EE65291827305D007D3053 /* EnergenX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergenX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EE652C1827305D007D3053 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0EE652E1827305D007D3053 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +62,8 @@
 		F0EE655A1827305D007D3053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0EE655C1827305D007D3053 /* EnergenXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnergenXTests.h; sourceTree = "<group>"; };
 		F0EE655D1827305D007D3053 /* EnergenXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergenXTests.m; sourceTree = "<group>"; };
+		F0EE65681827356C007D3053 /* logo-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-text.png"; path = "render/logo-text.png"; sourceTree = SOURCE_ROOT; };
+		F0EE656A1827375B007D3053 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01875331827AE6400F1B9CF /* CoreFoundation.framework in Frameworks */,
+				F0EE656B1827375B007D3053 /* CoreBluetooth.framework in Frameworks */,
 				F0EE652D1827305D007D3053 /* UIKit.framework in Frameworks */,
 				F0EE652F1827305D007D3053 /* Foundation.framework in Frameworks */,
 				F0EE65311827305D007D3053 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +95,7 @@
 		F0EE65201827305C007D3053 = {
 			isa = PBXGroup;
 			children = (
+				F0EE656A1827375B007D3053 /* CoreBluetooth.framework */,
 				F0EE65321827305D007D3053 /* EnergenX */,
 				F0EE65561827305D007D3053 /* EnergenXTests */,
 				F0EE652B1827305D007D3053 /* Frameworks */,
@@ -106,6 +115,7 @@
 		F0EE652B1827305D007D3053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F01875321827AE6400F1B9CF /* CoreFoundation.framework */,
 				F0EE652C1827305D007D3053 /* UIKit.framework */,
 				F0EE652E1827305D007D3053 /* Foundation.framework */,
 				F0EE65301827305D007D3053 /* CoreGraphics.framework */,
@@ -130,6 +140,7 @@
 		F0EE65331827305D007D3053 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0EE656718273555007D3053 /* Images */,
 				F0EE65341827305D007D3053 /* EnergenX-Info.plist */,
 				F0EE65351827305D007D3053 /* InfoPlist.strings */,
 				F0EE65381827305D007D3053 /* main.m */,
@@ -158,6 +169,14 @@
 				F0EE65591827305D007D3053 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0EE656718273555007D3053 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE65681827356C007D3053 /* logo-text.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +226,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Sean Arietta";
+				TargetAttributes = {
+					F0EE65281827305C007D3053 = {
+						DevelopmentTeam = 2X8WPG2SY5;
+					};
+				};
 			};
 			buildConfigurationList = F0EE65241827305C007D3053 /* Build configuration list for PBXProject "EnergenX" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -236,6 +260,7 @@
 				F0EE65411827305D007D3053 /* Default@2x.png in Resources */,
 				F0EE65431827305D007D3053 /* Default-568h@2x.png in Resources */,
 				F0EE65461827305D007D3053 /* MainStoryboard.storyboard in Resources */,
+				F0EE65691827356C007D3053 /* logo-text.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,10 +406,13 @@
 		F0EE65621827305D007D3053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EnergenX/EnergenX-Prefix.pch";
 				INFOPLIST_FILE = "EnergenX/EnergenX-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +420,13 @@
 		F0EE65631827305D007D3053 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EnergenX/EnergenX-Prefix.pch";
 				INFOPLIST_FILE = "EnergenX/EnergenX-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -453,6 +484,7 @@
 				F0EE65631827305D007D3053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0EE65641827305D007D3053 /* Build configuration list for PBXNativeTarget "EnergenXTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +493,7 @@
 				F0EE65661827305D007D3053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
